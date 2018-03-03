@@ -21,6 +21,6 @@ import { CardLinkComponent } from './ui_components/card-link/card-link.component
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, AboutComponent]
 })
 export class AppModule { }

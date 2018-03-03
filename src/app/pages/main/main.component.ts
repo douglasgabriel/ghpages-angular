@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MainPageLinksRepository } from '../../lib/decorators'
+import { MainPageLinksRepository } from '../../lib/decorators';
 
 @Component({
   selector: 'app-main',
@@ -8,7 +8,7 @@ import { MainPageLinksRepository } from '../../lib/decorators'
 })
 export class MainComponent implements OnInit {
 
-  links = MainPageLinksRepository;
+  public links = MainPageLinksRepository;
 
   constructor() { }
 
