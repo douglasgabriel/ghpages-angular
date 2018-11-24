@@ -1,0 +1,12 @@
+:host{
+  min-height: 100%;
+  padding: 50px;
+}
+
+:host .row > div{
+  padding:10px;
+}
+
+app-card{
+  min-height: 250px;
+}

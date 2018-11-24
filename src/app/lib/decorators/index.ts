@@ -1,1 +1,0 @@
-export * from './main_page_link';

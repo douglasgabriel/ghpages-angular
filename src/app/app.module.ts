@@ -5,8 +5,8 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './includes/footer/footer.component';
 import { HeaderComponent } from './includes/header/header.component';
 import { MainComponent } from './pages/main/main.component';
-import { AboutComponent } from './pages/about/about.component';
-import { CardLinkComponent } from './ui_components/card-link/card-link.component';
+import { MenuComponent } from './includes/menu/menu.component';
+import { CardComponent } from './ui_components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -14,13 +14,13 @@ import { CardLinkComponent } from './ui_components/card-link/card-link.component
     FooterComponent,
     HeaderComponent,
     MainComponent,
-    AboutComponent,
-    CardLinkComponent
+    MenuComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent, AboutComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
